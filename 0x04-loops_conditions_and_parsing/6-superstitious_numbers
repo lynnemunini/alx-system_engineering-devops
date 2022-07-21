@@ -9,7 +9,7 @@ do echo "$n"
 	case "$n" in
         3)  echo "bad luck from China";;
         8)  echo "bad luck from Japan";;
-        17) echo "bad luck from Italy";;
+        16) echo "bad luck from Italy";;
 	esac
         ((n++))
 done
