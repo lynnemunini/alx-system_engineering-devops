@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Bash script that displays The content of the current directory in aa list format
+my_list="$(ls .)"
+for i in $my_list; do
+	echo "${i#*-}"
+done
