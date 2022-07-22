@@ -14,8 +14,7 @@
 [4-to\_infinity\_and\_beyond](4-to_infinity_and_beyond)
 5. We stopped our 4-to\_infinity\_and\_beyond process using ctrl+c in the previous task, there is actually another way to do this.
 
-Write a Bash script that stops 4-to\_infinity\_and\_beyond process.
-[5-dont\_stop\_me\_now](5-dont_stop_me_now)
+	Write a Bash script that stops 4-to\_infinity\_and\_beyond process.[5-dont\_stop\_me\_now](5-dont_stop_me_now)
 6. Write a Bash script that stops 4-to\_infinity\_and\_beyond process.
 [6-stop\_me\_if\_you\_can](6-stop_me_if_you_can)
 7. Write a Bash script that displays:
