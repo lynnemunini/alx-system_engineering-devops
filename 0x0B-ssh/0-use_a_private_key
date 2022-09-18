@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+ssh-copy-id -i ~/.ssh/school ubuntu@44.200.190.25
 ssh -i ~/.ssh/school ubuntu@44.200.190.25
