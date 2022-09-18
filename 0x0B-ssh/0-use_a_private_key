@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# uses ssh to connect to a server using a private key with the user ubuntu
+# use ssh to connect to a server using a private key with the user ubuntu
 ssh-copy-id -i ~/.ssh/school ubuntu@44.200.190.25
 ssh -i ~/.ssh/school ubuntu@44.200.190.25
