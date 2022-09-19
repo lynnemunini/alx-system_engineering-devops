@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Get apache to run on a docker container and return Hello Holberton when querying the root of it
-docker exec -ti da7b115fdb81 /bin/bash
+docker exec -ti 84ac9cee4d0a /bin/bash
 sudo apt-get update
-apt-get install apache2 -y
-sudo apt-get install systemd
+sudo apt-get install apache2 -y
+sudo apt-get install systemd -y
 apachectl start
