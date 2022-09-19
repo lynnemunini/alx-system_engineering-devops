@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# Get apache to run on a docker container and return Hello Holberton when querying the root of it
