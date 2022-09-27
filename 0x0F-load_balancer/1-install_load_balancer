@@ -8,11 +8,10 @@ sudo echo "frontend web
 bind *:80
 mode http
 default_backend web
-option tcplog
 
 backend web
 balance roundrobin
 mode http
 server 13533-web-01 44.200.190.25:80 check
 server 13533-web-02 44.192.252.60:80 check" >> /etc/haproxy/haproxy.cfg
-sudo systemctl restart haproxy
+sudo service haproxy restart
