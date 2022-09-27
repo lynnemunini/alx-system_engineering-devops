@@ -13,6 +13,6 @@ option tcplog
 backend web
 balance roundrobin
 mode http
-server server1 44.200.190.25:80 check
-server server2 44.192.252.60:80 check" >> /etc/haproxy/haproxy.cfg
+server 13533-web-01 44.200.190.25:80 check
+server 13533-web-02 44.192.252.60:80 check" >> /etc/haproxy/haproxy.cfg
 sudo systemctl restart haproxy
