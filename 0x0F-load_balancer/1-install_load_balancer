@@ -6,13 +6,13 @@ sudo add-apt-repository ppa:vbernat/haproxy-2.6
 sudo apt-get install haproxy=2.6.\* -y
 sudo echo "frontend web
 bind *:80
-mode tcp
+mode http
 default_backend web
 option tcplog
 
 backend web
 balance roundrobin
-mode tcp
+mode http
 server server1 44.200.190.25:80 check
 server server2 44.192.252.60:80 check" >> /etc/haproxy/haproxy.cfg
 sudo systemctl restart haproxy
